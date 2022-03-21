@@ -1,0 +1,40 @@
+#!/bin/bash
+
+clear
+
+echo ""
+echo "┌─────────────────────────────────────────────┐"
+echo "│            NEF emulator live demo           │"
+echo "└─────────────────────────────────────────────┘"
+
+
+printf "\n\n"
+read -p " 🪧  STEP 1: clone the repository from Github 👇👇👇"
+echo "git clone https://github.com/medianetlab/NEF_emulator"
+git clone https://github.com/medianetlab/NEF_emulator
+
+echo "cd NEF_emulator/"
+cd NEF_emulator
+
+echo "git switch develop"
+git switch develop
+
+
+printf "\n\n\n"
+read -p " 🪧  STEP 2: prepare ⚙️ the environment variables 👇👇👇"
+make prepare-dev-env
+
+
+printf "\n\n\n"
+read -p " 🪧  STEP 3: build the Docker 🐳 images 👇👇👇"
+make build
+
+
+printf "\n\n\n"
+read -p " 🪧  STEP 4: run the 📦 containers 👇👇👇"
+make upd
+
+
+printf "\n\n\n"
+read -p " 🪧  STEP 5: check the 🪵 logs 👇👇👇"
+make logs

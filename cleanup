@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd NEF_emulator
+make down-v
+
+cd ..
+sudo rm -rf ./NEF_emulator
