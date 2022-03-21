@@ -2,7 +2,7 @@
 
 **1. Bash script for:**
 
- 1. cloning the `NEF_emulator` repo
+ 1. cloning the `NEF_emulator` repo 👉 [github.com/medianetlab/NEF_emulator](https://github.com/medianetlab/NEF_emulator)
  2. preparing the development environment
  3. building the Docker images
  4. launching `NEF_emulator`
