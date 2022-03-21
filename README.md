@@ -1,6 +1,6 @@
 # NEF_demo
 
-Bash script for:
+**1. Bash script for:**
 
  1. cloning the `NEF_emulator` repo
  2. preparing the development environment
@@ -12,3 +12,11 @@ Bash script for:
 ```
 
 ![](/imgs/demo.gif)
+
+<br>
+
+**2. json example:**
+
+ - [attica-park.json](./attica-park.json)
+
+![](/imgs/attica-park.png)
