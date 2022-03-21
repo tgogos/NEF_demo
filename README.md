@@ -15,7 +15,7 @@
 
 <br>
 
-**2. json example:**
+**2. import example:**
 
  - [attica-park.json](./attica-park.json)
 
